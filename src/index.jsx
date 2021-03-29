@@ -1,5 +1,6 @@
 import React from 'react';
+import {render} from 'react-dom';
 
-function App(){
-  return <h1>Olá</h1>
-}
+import {App} from './App';
+
+render(<h1>olá</h1>, document.getElementById('root'))
